@@ -42937,7 +42937,20 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 
+@media (max-width: 575px) {
+  .u-header .u-btn-1 {
+    margin-top: 17px;
+    margin-right: 0;
+    padding: 10px 10px 10px 8px;
+  }
 
+  .u-header .u-text-1 {
+    width: auto;
+    margin-top: -42px;
+    margin-bottom: 26px;
+    margin-left: 0;
+  }
+}
  .u-footer {
   background-image: none;
 }
