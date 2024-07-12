@@ -42917,38 +42917,38 @@ a.u-link.u-text-hover-grey-90:hover {
   min-height: 85px;
 }
 
+.u-header .u-text-1 {
+  margin: 32px auto 0 15px;
+}
+
 .u-header .u-btn-1 {
   font-size: 1.25rem;
   background-image: none;
-  margin: 16px 15px 0 auto;
-}
-
-.u-header .u-text-1 {
-  margin: -52px auto 16px 16px;
+  margin: -52px 32px 0 auto;
 }
 @media (max-width: 1199px) {
-  .u-header .u-btn-1 {
-    margin-right: 0;
+  .u-header .u-text-1 {
+    margin-left: 15px;
   }
 
-  .u-header .u-text-1 {
-    margin-top: -52px;
+  .u-header .u-btn-1 {
+    margin-right: 0;
   }
 }
 
 
 @media (max-width: 575px) {
-  .u-header .u-btn-1 {
-    margin-top: 17px;
-    margin-right: 0;
-    padding: 10px 10px 10px 8px;
-  }
-
   .u-header .u-text-1 {
     width: auto;
-    margin-top: -42px;
-    margin-bottom: 26px;
+    margin-top: 26px;
     margin-left: 0;
+  }
+
+  .u-header .u-btn-1 {
+    margin-top: -42px;
+    margin-right: 0;
+    margin-bottom: 17px;
+    padding: 10px 10px 10px 8px;
   }
 }
  .u-footer {
